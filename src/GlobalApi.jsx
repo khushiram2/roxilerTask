@@ -1,1 +1,1 @@
-export const globalApi="http://localhost:6700"
+export const globalApi="https://roxilerbackendtask.onrender.com"
