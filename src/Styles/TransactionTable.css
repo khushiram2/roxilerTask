@@ -1,0 +1,67 @@
+.table__container{
+    height: calc(100vh - 105px);
+    background-color: rgb(226, 240, 240);
+    overflow: scroll;
+    text-align: center;
+}
+.transaction__board{
+    height: 150px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 50%;
+    background-color: rgb(243, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+   left: 43rem;
+}
+input{
+    background-color: rgb(226, 226, 134);
+    height: 30px;
+    width: 200px;
+}
+.table__actions{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: space-between;
+    padding: 30px 20px;
+
+}
+table{
+    width: 90%;
+    margin: auto;
+}
+table,
+table>thead
+table>tbody,
+table>thead>tr>th,
+table>tbody>tr>td{
+    border: 1px solid black;
+}
+td{
+    padding: 10px;
+}
+select{
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(197, 197, 58);
+}
+.pagination{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.pagination>div>button{
+     background-color: blueviolet;
+    padding: 15px 12px;
+    color: aliceblue;
+    margin:0px 20px;
+
+}

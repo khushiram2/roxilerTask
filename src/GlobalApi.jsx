@@ -1,0 +1,1 @@
+export const globalApi="http://localhost:6700"
